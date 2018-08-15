@@ -10,7 +10,7 @@ metadata:
     kubernetes.io/name: "Kibana"
 spec:
   ports:
-  - nodePort: 31009
+  - nodePort: 31011
     protocol: TCP
     targetPort: ui
   type: NodePort
